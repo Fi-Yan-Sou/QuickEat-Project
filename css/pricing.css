@@ -1,0 +1,21 @@
+.lunch .table:first-child .head {
+    background-image: linear-gradient(to right, #e7eeff 90%, white);
+}
+.lunch .table:nth-child(2) .head {
+    background-image: linear-gradient(to right, #ffe9e9 90%, white);
+}
+.lunch .table:last-child .head {
+    background-image: linear-gradient(to right, #fff7e7 90%, white);
+}
+.lunch .table .head .image {
+    margin-left: -120px;
+}
+.lunch .table .head .image img {
+    filter: drop-shadow(0 0 10px white);
+}
+.lunch .table .head .caption {
+    flex: 1;
+}
+.lunch .table .head .caption h3 {
+    letter-spacing: -5px;
+}

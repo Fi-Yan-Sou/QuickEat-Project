@@ -1,0 +1,73 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.landing {
+    background-image: url(../imgs/partner-shaking-hands-img.jpg);
+    background-size: 100% 100%;
+    height: 70vh;
+}
+.landing::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.landing .container {
+    height: 100%;
+}
+.landing .container section {
+    height: 100%;
+}
+.landing .container section div {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.landing .input-box i {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.landing .form {
+    right: 0;
+    top: calc(454px / 2);
+}
+.landing .form textarea {
+    resize: none;
+}
+.landing textarea {
+    border: 1px solid #cfcfcf;
+}
+.benifit h2, .benifit p {
+    max-width: 600px;
+}
+.content .box {
+    border: 1px solid #cfcfcf;
+}
+.frequently .image::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 7px solid var(--main-color);
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+@media (max-width: 991px) {
+    .frequently .container > * {
+        width: 100%;
+    }
+    .frequently .image::before {
+        display: none;
+    }
+}
+.frequently section {
+    max-width: 500px;
+}
+.frequently .holder .box {
+    width: 200px;
+}

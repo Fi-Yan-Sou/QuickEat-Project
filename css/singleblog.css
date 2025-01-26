@@ -1,0 +1,39 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.right .image {
+    width: 80px;
+    height: 80px;
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+.landing .right p {
+    width: 160px;
+}
+.content .blabla {
+    max-width: 1000px;
+}
+.content .blabla .holder .image {
+    width: 48%;
+}
+.content .blabla .list ul li i {
+    font-size: 10px;
+}
+.content .blabla div > .box {
+    width: calc((100% - 40px) / 3);
+}
+.content .blabla div .box:not(:nth-child(2)) .image img {
+    width: 85px;
+    height: 85px;
+}
+.content .blabla a.show-more:hover {
+    opacity: .9;
+}
+.content .blabla textarea {
+    height: 200px;
+}
+.content .blabla form input {
+    width: calc((100% - 30px) / 2);
+}
+

@@ -1,0 +1,17 @@
+.landing section {
+    flex: 1;
+}
+.landing .holder .box {
+    width: 220px;
+}
+.landing .holder .box:hover {
+    background-color: #363636;
+}
+.landing .holder .box:hover *:not(i) {
+    color: white;
+}
+.location .input-box i {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}

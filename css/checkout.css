@@ -1,0 +1,67 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.landing p {
+    max-width: 900px;
+}
+.content .order-list > div:nth-of-type(2) img {
+    width: 60px;
+    height: 60px;
+}
+.content .order-list div label {
+    top: -20px;
+    right: 0;
+}
+.content .order-list div input[type="checkbox"]:checked + div {
+    display: none;
+}
+.content .order-list div article img {
+    width: 150px;
+}
+.content .order-list .order .box {
+    border-bottom: 1px solid #cfcfcf;
+}
+.content .form select {
+    color: #cfcfcf;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+.content .form ul li:first-child {
+    border-bottom: 2px solid var(--main-color);
+}
+.content .form .images img {
+    max-width: 60px;
+}
+.content .form .images input[type="radio"]:checked + label {
+    border: 1px solid var(--main-color);
+    padding: 10px;
+}
+.content .form .save .checkbox::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #eee;
+    font-size: 14px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content .form .save .checkbox:hover::before {
+    background-color: #cfcfcf;
+}
+.content .form .save input[type="checkbox"]:checked + label::before {
+    content: "\f00c";
+    background-color: var(--main-color);
+}
+form input:not(:first-of-type) {
+    width: calc((100% - 20px) / 2);
+}

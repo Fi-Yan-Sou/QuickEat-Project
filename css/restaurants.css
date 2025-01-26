@@ -1,0 +1,25 @@
+.landing select {
+    width: 80%;
+}
+.landing .waitress img {
+    max-width: 100%;
+}
+.landing .waitress ul {
+    z-index: 8;
+    top: 100px;
+    left: 70px;
+}
+.landing .waitress ul li a:hover span {
+    opacity: .9;
+}
+.choose .container {
+    background-image: url(../imgs/restaurants-choose-img.png);
+    background-size: 100% 100%;
+}
+.choose .month {
+    clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%, 0% 50%);
+}
+.choose .parent div:last-child img {
+    width: 60px;
+    height: 60px;
+}

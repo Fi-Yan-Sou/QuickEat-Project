@@ -1,0 +1,64 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.landing .image {
+    width: 600px;
+    height: 450px;
+    border: 7px solid var(--main-color);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.landing .image span {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    top: 0;left: -70px;
+}
+.landing .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+.questions label {
+    color: #363636;
+}
+.questions .input-box {
+    width: 400px;
+    border: 1px solid #cfcfcf;
+    overflow: hidden;
+}
+.questions .input-box input {
+    border: none;
+}
+.questions .content .box {
+    width: 80%;
+}
+.questions .content .question {
+    background-color: #fcfcfc;
+}
+.questions .content .answer {
+    border: 1px solid #cfcfcf;
+    align-self: flex-end;
+}
+.questions .content .symbol {
+    width: 35px;
+    height: 35px;
+}
+.questions .content .box p {
+    max-width: 900px;
+}
+.find .input-box i {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.find textarea {
+    border: 1px solid #cfcfcf;
+}

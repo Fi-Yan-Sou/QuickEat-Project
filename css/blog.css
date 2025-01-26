@@ -1,0 +1,32 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.landing div ul {
+    z-index: 8;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.landing div ul li {
+    width: 55px;
+    height: 55px;
+}
+.landing div ul li a {
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    border: 1px solid var(--main-color);
+}
+.latest .box > .image {
+    height: 500px;
+    overflow: hidden;
+}
+.latest .holder .image {
+    height: 250px;
+    overflow: hidden;
+}

@@ -1,0 +1,77 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.landing .parent {
+    width: 500px;
+    height: 600px;
+}
+.landing .parent::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 7px solid var(--main-color);
+    position: absolute;
+    top: 0;
+    left: -90px;
+    transform: rotate(20deg);
+    border-radius: 40px;
+}
+.landing .parent .content {
+    margin-left: -100px;
+}
+.landing .parent .holder > div {
+    width: calc(100% / 2);
+}
+.landing .parent .holder .image img {
+    max-width: 100%;
+}
+.landing .parent .holder .caption div {
+    width: 70%;
+    height: 70%;
+}
+.easier .box .holder:hover {
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+.easier .box .holder .icon {
+    border: 3px solid var(--main-color);
+    transform: translateX(13px) rotate(45deg);
+}
+.easier .box .holder:hover .icon i {
+    background-color: var(--main-color);
+    transform: translateX(-13px) rotate(-45deg);
+}
+.easier .box .holder:hover .icon {
+    border-color: #363636;
+}
+.easier .box .holder:hover .icon i {
+    color: white;
+}
+.easier .box a {
+    width: 180px;
+}
+.easier .box ul li {
+    width: 50%;
+}
+.easier .box ul li span {
+    width: 200px;
+}
+.make .box:first-child:before {
+    border-radius: 40px;
+    top: 50px;
+    left: 50px;
+}
+.make .box div {
+    width: 200px;
+    height: 200px;
+    bottom: 80px;
+    right: -75px;
+    z-index: 20;
+}
+.make .box:last-child {
+    width: 550px;
+}
+.make .box:last-child ul {
+    width: 500px;
+}

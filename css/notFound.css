@@ -1,0 +1,17 @@
+:root {
+    --main-color: #f29f05;
+    --duration: .5s;
+}
+.input-box {
+    width: 700px;
+}
+.input-box input {
+    flex: 1;
+}
+.input-box i {
+    margin-left: -25px;
+}
+.image div {
+    bottom: 60px;
+    right: -80px;
+}
